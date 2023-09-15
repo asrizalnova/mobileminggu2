@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">profil</string>
+    <string name="profile_saya">profile saya</string>
+    <string name="my_image">My Image</string>
+    <string name="Nama">Nama : Asrizal Nova Akhsanu</string>
+    <string name="NIM">Nim : 223307036</string>
+    <string name="TTL">TTL : Magetan,24 November 2003</string>
+    <string name="Alamat">Alamat : Jl Ki Hajar Dewantoro 4B, Selosari, Magetan</string>
+    <string name="Riwayat_Pendidikan"></string>
+</resources>

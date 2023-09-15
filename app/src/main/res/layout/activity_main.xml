@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0066CC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+<TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:layout_marginHorizontal="50dp"
+    android:background="#FFCCFFFF"
+    android:text="@string/profile_saya"
+    android:textSize="16sp"
+    android:layout_marginTop="12dp"
+    android:textColor="#000000"
+    android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/myprofile"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="22dp"
+        android:contentDescription="@string/my_image"
+        android:src="@drawable/myimage" />
+
+    <TextView
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:background="#FFCCFFFF"
+        android:text="@string/Nama"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/nim"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFCCFFFF"
+        android:gravity="center"
+        android:text="@string/NIM"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TTL"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:background="#FFCCFFFF"
+        android:text="@string/TTL"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="50dp"
+        android:background="#FFCCFFFF"
+        android:text="@string/Alamat"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/Riwayat_Pendidikan"
+            android:layout_width="match_parent"
+            android:layout_height="150px"
+            android:gravity="center"
+            android:layout_marginHorizontal="50dp"
+            android:background="#FFCCFFFF"
+            android:text="Riwayat Pendidikan :
+                              - SD Muhammadiyah 1 Magetan
+              - SMP Muhammadiyah 1 Magetan
+                       - SMK Telkom Malang"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+    <Button
+        android:id="@+id/myButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tampil nama" />
+
+</LinearLayout>
